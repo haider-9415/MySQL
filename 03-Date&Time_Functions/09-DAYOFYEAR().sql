@@ -1,0 +1,16 @@
+/*
+	DAYOFYEAR() --> it rturns the date of the year
+*/ 
+
+SELECT DAYOFYEAR('2023-02-1');
+SELECT DAYOFYEAR('2023-04-10');
+SELECT DAYOFYEAR('2023-12-23');
+SELECT DAYOFYEAR('2023-01-10');
+SELECT DAYOFYEAR('2023-12-31');
+
+
+use sakila;
+SELECT 
+    DAYOFMONTH(payment_date)
+FROM
+    payment;

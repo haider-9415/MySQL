@@ -1,0 +1,25 @@
+/*
+  CEIL(x) & CEILING(x)
+  
+  both returns the smallest integer but not less than x
+
+*/
+
+SELECT CEIL(6);
+SELECT CEIL(- 6);
+SELECT CEIL(6.8);
+SELECT CEIL(6.3);
+SELECT CEIL(- 6.8);
+SELECT CEIL(- 6.3);
+
+
+
+SELECT CEILING(6);
+SELECT CEILING(- 6);
+SELECT CEILING(6.8);
+SELECT CEILING(6.3);
+SELECT CEILING(- 6.8);
+SELECT CEILING(- 6.3);
+
+
+

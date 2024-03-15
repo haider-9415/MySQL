@@ -1,0 +1,10 @@
+/*
+	MONTHNAME() --> it returns the full name of the month
+
+*/
+
+SELECT MONTHNAME('2023-02-1');
+SELECT MONTHNAME('2023-04-10');
+SELECT MONTHNAME('2023-01-10');
+SELECT MONTHNAME('2023-12-31');
+
